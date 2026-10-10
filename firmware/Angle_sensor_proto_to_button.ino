@@ -36,11 +36,6 @@ void loop()
   }
 }
 
-bool button()
-{
-  return digitalRead(Buttonpin) == LOW;
-}
-
 void angle_sensor()
 {
   int value = analogRead(SENSOR);
