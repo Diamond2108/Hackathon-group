@@ -52,7 +52,7 @@ void loop()
 {
   timer(); //Calls upon the LED Socket Kit Function. 
 
-  if(!systemStarted) //If loop for if the system has not started.
+  if(!systemStarted) //If statement for if the system has not started.
   {
     Button(); //Runs the Button function.
   }
